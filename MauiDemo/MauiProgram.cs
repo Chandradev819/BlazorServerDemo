@@ -1,5 +1,6 @@
 ﻿using MauiDemo.Data;
 using Microsoft.AspNetCore.Components.WebView.Maui;
+using Syncfusion.Blazor;
 
 namespace MauiDemo
 {
@@ -21,7 +22,7 @@ namespace MauiDemo
 #endif
 
             builder.Services.AddSingleton<WeatherForecastService>();
-
+            builder.Services.AddSyncfusionBlazor();
             return builder.Build();
         }
     }

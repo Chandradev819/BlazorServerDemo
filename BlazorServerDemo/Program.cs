@@ -1,6 +1,4 @@
 using BlazorServerDemo.Data;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
 using Syncfusion.Blazor;
 
 var builder = WebApplication.CreateBuilder(args);
